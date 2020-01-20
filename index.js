@@ -9,8 +9,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(timeString){
-  const hour= parseInt(imeString.split(':')[0],10);
-  if(hour<12){
+  const hour= parseInt(timeString.split(':')[0],10);
+  if(hour < 12){
     return "Good Morning";
   }
   else if (hour>=12 && hour<=17) {

@@ -13,7 +13,7 @@ function greet(timeString){
   if(hour < 12){
     return "Good Morning";
   }
-  else if (hour>=12 && hour<=17) {
+  else if (hour>=12 && hour <= 17) {
     return "Good Afternoon";
   }
   else {
@@ -23,5 +23,5 @@ function greet(timeString){
 /* Write your implementation of displayMessage() */
 
 function displayMessage(message){
-  document.getElementById('greeting').textContent = message;
+  document.getElementById('greeting').innerText = message;
 }
